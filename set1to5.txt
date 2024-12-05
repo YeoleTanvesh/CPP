@@ -1,0 +1,370 @@
+Se1 1
+Q1A: Write a program to input two numbers and display their sum.(6 marks) Write the breakdown for
+the above program (2 marks) Give 2 possible input/ output cases (2 marks)
+#include <iostream>
+using namespace std;
+int main() {
+ // Declare variables to store input numbers
+ float num1, num2, sum;
+
+ // Input two numbers from the user
+ cout << "Enter the first number: ";
+ cin >> num1;
+
+ cout << "Enter the second number: ";
+ cin >> num2;
+
+ // Calculate the sum of the two numbers
+ sum = num1 + num2;
+
+ // Display the sum
+ cout << "The sum of " << num1 << " and " << num2 << " is: " << sum << endl;
+
+ return 0;
+}
+Q2Write a program to check if a given year is a leap year.(6 marks) Write the breakdown for the above
+program (2 marks) Give 2 possible input/ output cases (2 marks)
+#include <iostream>
+using namespace std;
+int main() {
+ int year;
+ // Input year from user
+ cout << "Enter a year: ";
+ cin >> year;
+ // Check if the year is a leap year
+ if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
+ cout << year << " is a leap year." << endl;
+ } else {
+ cout << year << " is not a leap year." << endl;
+ }
+ return 0;
+}
+Q3: Write a program to demonstrate simple inheritance by creating a base class Animal with an
+attribute name and a derived class Dog that adds a method bark(). (6 marks) Write the breakdown for
+the above program (2 marks) Give 2 possible input/ output cases (2 marks)
+#include <iostream>
+using namespace std;
+// Base class Animal
+class Animal {
+public:
+ // Attribute for the animal's name
+ string name;
+ // Constructor to initialize the name
+ Animal(string n) : name(n) {}
+ // Method to display the name of the animal
+ void display() {
+ cout << "Animal Name: " << name << endl;
+ }
+};
+// Derived class Dog inheriting from Animal
+class Dog : public Animal {
+public:
+ // Constructor to initialize the name (calls base class constructor)
+ Dog(string n) : Animal(n) {}
+ // Method to make the dog bark
+ void bark() {
+ cout << name << " says: Woof! Woof!" << endl;
+ }
+};
+int main() {
+ // Create an object of the Dog class
+ Dog myDog("Buddy");
+ // Call the display method of Animal class
+ myDog.display();
+ // Call the bark method of Dog class
+ myDog.bark();
+ return 0;
+}
+Set2
+Q1Write a program to calculate the area of a rectangle by taking its length and width as input. (6 marks)
+Write the breakdown for the above program (2 marks) Give 2 possible input/ output cases (2 marks)
+#include <iostream>
+using namespace std;
+int main() {
+ // Declare variables for length, width, and area
+ float length, width, area;
+ // Input the length of the rectangle
+ cout << "Enter the length of the rectangle: ";
+ cin >> length;
+ // Input the width of the rectangle
+ cout << "Enter the width of the rectangle: ";
+ cin >> width;
+ // Calculate the area of the rectangle
+ area = length * width;
+ // Output the area of the rectangle
+ cout << "The area of the rectangle is: " << area << endl;
+ return 0;
+}
+Q2: Write a program to check if a person is eligible to vote (age 18 or above).(6 marks) Write the
+breakdown for the above program (2 marks) Give 2 possible input/ output cases (2 marks)
+#include <iostream>
+using namespace std;
+int main() {
+ // Declare a variable to store the person's age
+ int age;
+ // Prompt the user to enter their age
+ cout << "Enter your age: ";
+ cin >> age;
+ // Check if the person is eligible to vote
+ if (age >= 18) {
+ cout << "You are eligible to vote." << endl;
+ } else {
+ cout << "You are not eligible to vote." << endl;
+ }
+ return 0;
+}
+Q3: Write a program to input a positive integer N and calculate the sum of the first N natural numbers
+using a for loop.(6 marks) Write the breakdown for the above program (2 marks) Give 2 possible input/
+output cases (2 marks)
+#include <iostream>
+using namespace std;
+int main() {
+ // Declare a variable to store the number N and the sum
+ int N, sum = 0;
+ // Input the value of N
+ cout << "Enter a positive integer N: ";
+ cin >> N;
+ // Check if the entered number is positive
+ if (N <= 0) {
+ cout << "Please enter a positive integer." << endl;
+ return 1; // Exit the program if the input is not positive
+ }
+ // Use a for loop to calculate the sum of the first N natural numbers
+ for (int i = 1; i <= N; i++) {
+ sum += i; // Add the current number to sum
+ }
+ // Output the sum
+ cout << "The sum of the first " << N << " natural numbers is: " << sum << endl;
+ return 0;
+}
+Set3
+Q1: Write a program to find the product of three numbers entered by the user.(6 marks) Write the
+breakdown for the above program (2 marks) Give 2 possible input/ output cases (2 marks)
+#include <iostream>
+using namespace std;
+int main() {
+ // Declare variables to store three numbers
+ float num1, num2, num3, product;
+ // Input the three numbers from the user
+ cout << "Enter the first number: ";
+ cin >> num1;
+ cout << "Enter the second number: ";
+ cin >> num2;
+ cout << "Enter the third number: ";
+ cin >> num3;
+ // Calculate the product of the three numbers
+ product = num1 * num2 * num3;
+ // Output the result
+ cout << "The product of " << num1 << ", " << num2 << " and " << num3 << " is: " << product << endl;
+ return 0;
+}
+Q2Write a program to check if a password is valid. A password is valid if it has at least 8 characters and
+does not contain any spaces.(6 marks) Write the breakdown for the above program (2 marks) Give 2
+possible input/ output cases (2 marks)
+#include <iostream>
+#include <string>
+using namespace std;
+int main() {
+ // Declare a variable to store the password
+ string password;
+ // Input the password from the user
+ cout << "Enter your password: ";
+ getline(cin, password); // Use getline to read spaces
+ // Check if the password has at least 8 characters and contains no spaces
+ if (password.length() >= 8 && password.find(' ') == string::npos) {
+ cout << "Password is valid." << endl;
+ } else {
+ cout << "Password is invalid." << endl;
+ }
+ return 0;
+}
+Q3: Write a program to check if a number entered by the user is positive, negative, or zero.(6 marks)
+Write the breakdown for the above program (2 marks) Give 2 possible input/ output cases (2 marks)
+#include <iostream>
+using namespace std;
+int main() {
+ // Declare a variable to store the number
+ int number;
+ // Input the number from the user
+ cout << "Enter a number: ";
+ cin >> number;
+ // Check if the number is positive, negative, or zero
+ if (number > 0) {
+ cout << "The number is positive." << endl;
+ } else if (number < 0) {
+ cout << "The number is negative." << endl;
+ } else {
+ cout << "The number is zero." << endl;
+ }
+ return 0;
+}
+Set4
+Q1: Write a program to take two boolean inputs (1 for true, 0 for false) and display the results of AND
+(&&) and OR (||) operations.(6Marks) Write the breakdown for the above program (2 marks) Give 2
+possible input/ output cases (2 marks)
+#include <iostream>
+using namespace std;
+int main() {
+ // Declare two boolean variables to store the inputs
+ bool a, b;
+ // Input two boolean values (1 for true, 0 for false)
+ cout << "Enter the first boolean value (1 for true, 0 for false): ";
+ cin >> a;
+
+ cout << "Enter the second boolean value (1 for true, 0 for false): ";
+ cin >> b;
+ // Perform AND (&&) operation
+ bool andResult = a && b;
+ cout << "The result of AND (a && b) is: " << andResult << endl;
+ // Perform OR (||) operation
+ bool orResult = a || b;
+ cout << "The result of OR (a || b) is: " << orResult << endl;
+ return 0;
+}
+Q2Write a program to assign a grade based on marks: •90 and above: A •80 to 89 : B •70 to 79 : C
+•Below 70 : Fail. (6Marks) Write the breakdown for the above program (2 marks) Give 2 possible input/
+output cases (2 marks)
+#include <iostream>
+using namespace std;
+int main() {
+ // Declare a variable to store marks
+ int marks;
+ // Input marks from the user
+ cout << "Enter the marks: ";
+ cin >> marks;
+ // Check the range of marks and assign a grade
+ if (marks >= 90) {
+ cout << "Grade: A" << endl;
+ } else if (marks >= 80) {
+ cout << "Grade: B" << endl;
+ } else if (marks >= 70) {
+ cout << "Grade: C" << endl;
+ } else {
+ cout << "Grade: Fail" << endl;
+ }
+ return 0;
+}
+Q3: Write a program to calculate the factorial of a number using recursion.(6 marks) Write the
+breakdown for the above program (2 marks) Give 2 possible input/ output cases (2 marks)
+#include <iostream>
+using namespace std;
+// Recursive function to calculate factorial
+int factorial(int n) {
+ if (n <= 1) {
+ return 1; // Base case: factorial of 0 or 1 is 1
+ } else {
+ return n * factorial(n - 1); // Recursive call
+ }
+}
+int main() {
+ // Declare a variable to store the number
+ int num;
+ // Input the number from the user
+ cout << "Enter a number: ";
+ cin >> num;
+ // Check for non-negative input
+ if (num < 0) {
+ cout << "Factorial is not defined for negative numbers." << endl;
+ } else {
+ // Call the recursive function and display the result
+ cout << "The factorial of " << num << " is: " << factorial(num) << endl;
+ }
+ return 0;
+}
+Set5
+Q1Write a program to check if a number is divisible by 5 and 3..(6 marks) Write the breakdown for the
+above program (2 marks) Give 2 possible input/ output cases (2 marks)
+#include <iostream>
+using namespace std;
+int main() {
+ // Declare a variable to store the number
+ int number;
+ // Input the number from the user
+ cout << "Enter a number: ";
+ cin >> number;
+ // Check if the number is divisible by both 5 and 3
+ if (number % 5 == 0 && number % 3 == 0) {
+ cout << "The number is divisible by both 5 and 3." << endl;
+ } else {
+ cout << "The number is NOT divisible by both 5 and 3." << endl;
+ }
+ return 0;
+Q2: Write a program to input a number (1 to 12) and display the corresponding month name using a
+switch statement (6Marks) Write the breakdown for the above program (2 marks) Give 2 possible input/
+output cases (2 marks)
+#include <iostream>
+using namespace std;
+int main() {
+ // Declare a variable to store the month number
+ int month;
+ // Input the month number from the user
+ cout << "Enter a number (1 to 12): ";
+ cin >> month;
+ // Use switch statement to display the corresponding month name
+ switch(month) {
+ case 1:
+ cout << "January" << endl;
+ break;
+ case 2:
+ cout << "February" << endl;
+ break;
+ case 3:
+ cout << "March" << endl;
+ break;
+ case 4:
+ cout << "April" << endl;
+ break;
+ case 5:
+ cout << "May" << endl;
+ break;
+ case 6:
+ cout << "June" << endl;
+ break;
+ case 7:
+ cout << "July" << endl;
+ break;
+ case 8:
+ cout << "August" << endl;
+ break;
+ case 9:
+ cout << "September" << endl;
+ break;
+ case 10:
+ cout << "October" << endl;
+ break;
+ case 11:
+ cout << "November" << endl;
+ break;
+ case 12:
+ cout << "December" << endl;
+ break;
+ default:
+ cout << "Invalid input! Please enter a number between 1 and 12." << endl;
+ break;
+ }
+ return 0;
+}
+Q3Write a program to find the largest number among three numbers entered by the user.(6 marks)
+Write the breakdown for the above program (2 marks) Give 2 possible input/ output cases (2 marks)
+#include <iostream>
+using namespace std;
+int main() {
+ // Declare variables to store three numbers
+ int num1, num2, num3;
+ // Input the three numbers from the user
+ cout << "Enter the first number: ";
+ cin >> num1;
+ cout << "Enter the second number: ";
+ cin >> num2;
+ cout << "Enter the third number: ";
+ cin >> num3;
+ // Compare the three numbers to find the largest
+ if (num1 >= num2 && num1 >= num3) {
+ cout << "The largest number is: " << num1 << endl;
+ } else if (num2 >= num1 && num2 >= num3) {
+ cout << "The largest number is: " << num2 << endl;
+ } else {
+ cout << "The largest number is: " << num3 << endl;
+ }
+ return 0;
+}
