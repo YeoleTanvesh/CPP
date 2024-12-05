@@ -1,0 +1,6127 @@
+‭Solution for Question 1: Basic Addition‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+num1, num2, sum;‬
+// Input two numbers‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter two numbers: "‬
+;‬
+‭
+cin‬‭
+‭
+>> num1 >> num2;‬
+// Calculate sum‬
+‭
+sum = num1 + num2;‬
+‭
+// Display result‬
+‭
+cout‬‭
+‭
+<<‬‭
+"The sum is: "‬‭
+<< sum <<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭Solution for Question 2: Area of a Rectangle‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+double‬‭
+‭
+length, width, area;‬
+// Input length and width‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter the length of the rectangle: "‬
+;‬
+‭
+cin‬‭
+‭
+>> length;‬
+cout‬‭
+‭
+<<‬‭
+"Enter the width of the rectangle: "‬
+;‬
+‭
+cin‬‭
+‭
+>> width;‬
+// Calculate area‬
+‭
+area = length * width;‬
+‭
+// Display result‬
+‭
+cout‬‭
+‭
+<<‬‭
+"The area of the rectangle is: "‬‭
+<< area‬‭
+<<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Solution for Question 3: Product of Three Numbers‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+num1, num2, num3, product;‬
+// Input three numbers‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter three numbers: "‬
+;‬
+‭
+cin‬‭
+‭
+>> num1 >> num2 >> num3;‬
+// Calculate product‬
+‭
+product = num1 * num2 * num3;‬
+‭
+// Display result‬
+‭
+cout‬‭
+‭
+<<‬‭
+"The product is: "‬‭
+<< product <<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭Solution for Question 4: Simple Interest Calculation‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+double‬‭
+‭
+principal, rate, time, simpleInterest;‬
+// Input principal, rate, and time‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter principal amount: "‬
+;‬
+‭
+cin‬‭
+‭
+>> principal;‬
+cout‬‭
+‭
+<<‬‭
+"Enter rate of interest: "‬
+;‬
+‭
+cin‬‭
+‭
+>> rate;‬
+cout‬‭
+‭
+<<‬‭
+"Enter time in years: "‬
+;‬
+‭
+cin‬‭
+‭
+>> time;‬
+// Calculate simple interest‬
+‭
+simpleInterest = (principal * rate * time) /‬‭
+‭
+100‬
+;‬
+‭
+// Display result‬
+‭
+cout‬‭
+‭
+<<‬‭
+"The Simple Interest is: "‬‭
+<< simpleInterest‬‭
+<<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Question 5: Circle Properties‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+double‬‭
+‭
+radius, area, circumference;‬
+const‬‭
+‭
+double‬‭
+PI =‬‭
+3.14‬
+;‬
+‭
+‭/ Input radius‬
+/
+cout‬‭
+‭
+<<‬‭
+"Enter the radius of the circle: "‬
+;‬
+‭
+cin‬‭
+‭
+>> radius;‬
+‭/ Calculate area and circumference‬
+/
+area = PI * radius * radius;‬
+‭
+circumference =‬‭
+‭
+2‬‭
+* PI * radius;‬
+‭/ Display results‬
+/
+cout‬‭
+‭
+<<‬‭
+"Area: "‬‭
+<< area <<‬‭
+endl‬
+;‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Circumference: "‬‭
+<< circumference <<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Solution for Question 6: Even or Odd‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+num;‬
+‭/ Input number‬
+/
+cout‬‭
+‭
+<<‬‭
+"Enter a number: "‬
+;‬
+‭
+cin‬‭
+‭
+>> num;‬
+‭/ Check even or odd‬
+/
+if‬‭
+‭
+(num %‬‭
+2‬‭
+==‬‭
+0‬
+) {‬
+‭
+cout‬‭
+‭
+<< num <<‬‭
+" is even."‬‭
+<<‬‭
+endl‬
+;‬
+‭
+}‬‭
+‭
+else‬‭
+{‬
+cout‬‭
+‭
+<< num <<‬‭
+" is odd."‬‭
+<<‬‭
+endl‬
+;‬
+‭
+}‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭Solution for Question 7: Temperature Conversion‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+double‬‭
+‭
+celsius, fahrenheit;‬
+// Input temperature in Celsius‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter temperature in Celsius: "‬
+;‬
+‭
+cin‬‭
+‭
+>> celsius;‬
+// Convert to Fahrenheit‬
+‭
+fahrenheit = (celsius *‬‭
+‭
+9‬‭
+/‬‭
+5‬
+) +‬‭
+‭
+32‬
+;‬
+‭
+// Display result‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Temperature in Fahrenheit: "‬‭
+<< fahrenheit <<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Solution for Question 8: Quotient and Remainder‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+dividend, divisor, quotient, remainder;‬
+// Input dividend and divisor‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter dividend: "‬
+;‬
+‭
+cin‬‭
+‭
+>> dividend;‬
+cout‬‭
+‭
+<<‬‭
+"Enter divisor: "‬
+;‬
+‭
+cin‬‭
+‭
+>> divisor;‬
+// Calculate quotient and remainder‬
+‭
+quotient = dividend / divisor;‬
+‭
+remainder = dividend % divisor;‬
+‭
+// Display results‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Quotient: "‬‭
+<< quotient <<‬‭
+endl‬
+;‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Remainder: "‬‭
+<< remainder <<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭Solution for Question 9: Average of Five Numbers‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+double‬‭
+‭
+num1, num2, num3, num4, num5, average;‬
+// Input five numbers‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter five numbers: "‬
+;‬
+‭
+cin‬‭
+‭
+>> num1 >> num2 >> num3 >> num4 >> num5;‬
+// Calculate average‬
+‭
+average = (num1 + num2 + num3 + num4 + num5) /‬‭
+‭
+5‭
+;
+‬‬
+// Display result‬
+‭
+cout‬‭
+‭
+<<‬‭
+"The average is: "‬‭
+<< average <<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Solution for Question 10: Square and Cube of a Number‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+num, square, cube;‬
+// Input number‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter a number: "‬
+;‬
+‭
+cin‬‭
+‭
+>> num;‬
+// Calculate square and cube‬
+‭
+square = num * num;‬
+‭
+cube = num * num * num;‬
+‭
+// Display results‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Square: "‬‭
+<< square <<‬‭
+endl‬
+;‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Cube: "‬‭
+<< cube <<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭Solution for Question 11: Check Voting Eligibility‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+age;‬
+bool‬‭
+‭
+isCitizen;‬
+// Input age and citizenship status‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter age: "‬
+;‬
+‭
+cin‬‭
+‭
+>> age;‬
+cout‬‭
+‭
+<<‬‭
+"Are you a citizen? Enter 1 for Yes or‬‭
+0 for No: "‬
+;‬
+‭
+cin‬‭
+‭
+>> isCitizen;‬
+// Check voting eligibility‬
+‭
+if‬‭
+‭
+(age >=‬‭
+18‬‭
+&& isCitizen) {‬
+cout‬‭
+‭
+<<‬‭
+"You are eligible to vote."‬‭
+<<‬‭
+endl‬
+;‬
+‭
+}‬‭
+‭
+else‬‭
+{‬
+cout‬‭
+‭
+<<‬‭
+"You are not eligible to vote."‬‭
+<<‬‭
+endl‬
+;‬
+‭
+}‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Solution for Question 12: Check Leap Year‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+year;‬
+// Input year‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter a year: "‬
+;‬
+‭
+cin‬‭
+‭
+>> year;‬
+// Check leap year conditions‬
+‭
+if‬‭
+‭
+((year %‬‭
+4‬‭
+==‬‭
+0‬‭
+&& year %‬‭
+100‬‭
+!=‬‭
+0‬
+) || (year %‬‭
+‭
+400‬‭
+==‬‭
+0‬
+)) {‬
+‭
+cout‬‭
+‭
+<< year <<‬‭
+" is a leap year."‬‭
+<<‬‭
+endl‬
+;‬
+‭
+}‬‭
+‭
+else‬‭
+{‬
+cout‬‭
+‭
+<< year <<‬‭
+" is not a leap year."‬‭
+<<‬‭
+endl‬
+;‬
+‭
+}‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭Solution for Question 13: Logical AND and OR Demonstration‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+bool‬‭
+‭
+a, b;‬
+// Input boolean values‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter two boolean values (1 for true,‬‭
+0 for false): "‬
+;‬
+‭
+cin‬‭
+‭
+>> a >> b;‬
+// Perform logical operations‬
+‭
+cout‬‭
+‭
+<<‬‭
+"a AND b: "‬‭
+<< (a && b) <<‬‭
+endl‬
+;‬
+‭
+cout‬‭
+‭
+<<‬‭
+"a OR b: "‬‭
+<< (a || b) <<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Solution for Question 14: Number Range Check‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+num;‬
+// Input number‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter a number: "‬
+;‬
+‭
+cin‬‭
+‭
+>> num;‬
+// Check if number lies in range [10, 50]‬
+‭
+if‬‭
+‭
+(num >=‬‭
+10‬‭
+&& num <=‬‭
+50‬
+) {‬
+‭
+cout‬‭
+‭
+<< num <<‬‭
+" lies within the range [10,‬‭
+50]."‬‭
+<<‬‭
+endl‬
+;‬
+‭
+}‬‭
+‭
+else‬‭
+{‬
+cout‬‭
+‭
+<< num <<‬‭
+" does not lie within the range‬‭
+[10, 50]."‬‭
+<<‬
+endl‬
+‭
+;‬
+‭
+}‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭Solution for Question15: Check Password Validity‬
+‭include <iostream>‬
+#
+#include <string>‬
+‭
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+string‬‭
+‭
+password;‬
+// Input password‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter a password: "‬
+;‬
+‭
+getline(‬
+‭
+cin‬
+‭
+, password);‬
+‭
+// Check password validity‬
+‭
+if‬‭
+‭
+(password.length() >=‬‭
+8‬‭
+&& password.find(‬
+' '‬
+‭
+) ==‬‭
+‭
+string‬
+::npos)‬
+‭
+{‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Password is‬‭
+valid."‬‭
+<<‬‭
+endl‬
+;‬
+‭
+}‬‭
+‭
+else‬‭
+{‬
+cout‬‭
+‭
+<<‬‭
+"Password‬‭
+is invalid."‬‭
+<<‬‭
+endl‬
+;‬
+‭
+}‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Assignment Operator:‬
+‭Solutions‬
+‭Solution for Question 16: Basic Assignment and Display‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+num;‬
+// Assign a value using the assignment operator‬
+‭
+num =‬‭
+‭
+25‬
+;‬
+‭
+// Display the value‬
+‭
+cout‬‭
+‭
+<<‬‭
+"The value of num is: "‬‭
+<< num <<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭Solution for Question 17: Increment and Assign‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+num;‬
+// Input a number‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter a number: "‬
+;‬
+‭
+cin‬‭
+‭
+>> num;‬
+// Add 10 using the += operator‬
+‭
+num +=‬‭
+‭
+10‬
+;‬
+‭
+// Display the updated value‬
+‭
+cout‬‭
+‭
+<<‬‭
+"The updated value is: "‬‭
+<< num <<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Solution for Question 18: Subtract and Assign‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+num;‬
+// Input a number‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter a number: "‬
+;‬
+‭
+cin‬‭
+‭
+>> num;‬
+// Subtract 5 using the -= operator‬
+‭
+num -=‬‭
+‭
+5‬
+;‬
+‭
+// Display the updated value‬
+‭
+cout‬‭
+‭
+<<‬‭
+"The updated value is: "‬‭
+<< num <<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭Solution for Question 19: Multiply and Assign‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+num;‬
+// Input a number‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter a number: "‬
+;‬
+‭
+cin‬‭
+‭
+>> num;‬
+// Multiply by 2 using the *= operator‬
+‭
+num *=‬‭
+‭
+2‬
+;‬
+‭
+// Display the updated value‬
+‭
+cout‬‭
+‭
+<<‬‭
+"The updated value is: "‬‭
+<< num <<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Solution for Question 20: Divide and Assign‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+double‬‭
+‭
+num1, num2;‬
+// Input two numbers‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter the first number: "‬
+;‬
+‭
+cin‬‭
+‭
+>> num1;‬
+cout‬‭
+‭
+<<‬‭
+"Enter the second number: "‬
+;‬
+‭
+cin‬‭
+‭
+>> num2;‬
+// Check if the divisor is not zero‬
+‭
+if‬‭
+‭
+(num2 !=‬‭
+0‭
+)
+‬ {‬
+// Divide num1 by num2 using the /= operator‬
+‭
+num1 /= num2;‬
+‭
+// Display the updated value‬
+‭
+cout‬‭
+‭
+<<‬‭
+"The updated value of the first number is: "‬‭
+<< num1‬
+<<‬‭
+‭
+endl‬
+;‬
+‭
+}‬‭
+‭
+else‬‭
+{‬
+cout‬‭
+‭
+<<‬‭
+"Division by zero is not allowed!"‬‭
+<<‬‭
+endl‬
+;‬
+‭
+}‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭Solution for Question 21: Pre-increment Example‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+num;‬
+// Input a number‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter a number: "‬
+;‬
+‭
+cin‬‭
+‭
+>> num;‬
+// Use pre-increment‬
+‭
+++num;‬
+‭
+// Display the result‬
+‭
+cout‬‭
+‭
+<<‬‭
+"The value after pre-increment is: "‬‭
+<<‬‭
+num <<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Solution for Question 22: Post-increment Example‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+num;‬
+// Input a number‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter a number: "‬
+;‬
+‭
+cin‬‭
+‭
+>> num;‬
+// Use post-increment‬
+‭
+cout‬‭
+‭
+<<‬‭
+"The value before post-increment is: "‬‭
+<< num <<‬‭
+endl‬
+;‬
+‭
+num++;‬
+‭
+cout‬‭
+‭
+<<‬‭
+"The value after post-increment is: "‬‭
+<< num <<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭Solution for Question 23: Pre-decrement Example‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+num;‬
+// Input a number‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter a number: "‬
+;‬
+‭
+cin‬‭
+‭
+>> num;‬
+// Use pre-decrement‬
+‭
+--num;‬
+‭
+// Display the result‬
+‭
+cout‬‭
+‭
+<<‬‭
+"The value after pre-decrement is: "‬‭
+<<‬‭
+num <<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Solution for Question 24: Post-decrement Example‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+num;‬
+// Input a number‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter a number: "‬
+;‬
+‭
+cin‬‭
+‭
+>> num;‬
+// Use post-decrement‬
+‭
+cout‬‭
+‭
+<<‬‭
+"The value before post-decrement is: "‬‭
+<< num <<‬‭
+endl‬
+;‬
+‭
+num--;‬
+‭
+cout‬‭
+‭
+<<‬‭
+"The value after post-decrement is: "‬‭
+<< num <<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭Solution for Question 25: Increment and Decrement Combined‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+num;‬
+// Input a number‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter a number: "‬
+;‬
+‭
+cin‬‭
+‭
+>> num;‬
+// Perform increment and decrement‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Original value: "‬‭
+<< num <<‬‭
+endl‬
+;‬
+‭
+++num;‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Value after pre-increment: "‬‭
+<< num <<‬‭
+endl‬
+;‬
+‭
+num--;‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Value after post-decrement: "‬‭
+<< num <<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭if-else statements :‬
+‭Solution for Question 26: Check Positive or Negative Number‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+num;‬
+// Input number‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter a number: "‬
+;‬
+‭
+cin‬‭
+‭
+>> num;‬
+// Check if positive, negative, or zero‬
+‭
+if‬‭
+‭
+(num >‬‭
+0‬
+)‬
+‭
+cout‬‭
+‭
+<<‬‭
+"The number is positive."‬‭
+<<‬‭
+endl‬
+;‬
+‭
+else‬‭
+‭
+if‬‭
+(num <‬‭
+0‬
+)‬
+‭
+cout‬‭
+‭
+<<‬‭
+"The number is negative."‬‭
+<<‬‭
+endl‬
+;‬
+‭
+else‬
+‭
+cout‬‭
+‭
+<<‬‭
+"The number is zero."‬‭
+<<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭Solution for Question 27: Odd or Even Check‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+num;‬
+// Input number‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter a number: "‬
+;‬
+‭
+cin‬‭
+‭
+>> num;‬
+// Check odd or even‬
+‭
+if‬‭
+‭
+(num %‬‭
+2‬‭
+==‬‭
+0‬
+)‬
+‭
+cout‬‭
+‭
+<<‬‭
+"The number is even."‬‭
+<<‬‭
+endl‬
+;‬
+‭
+else‬
+‭
+cout‬‭
+‭
+<<‬‭
+"The number is odd."‬‭
+<<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Solution for Question 28: Check Maximum of Two Numbers‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+num1, num2;‬
+// Input two numbers‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter two numbers: "‬
+;‬
+‭
+cin‬‭
+‭
+>> num1 >> num2;‬
+// Find maximum‬
+‭
+if‬‭
+‭
+(num1 > num2)‬
+cout‬‭
+‭
+<<‬‭
+"The maximum is: "‬‭
+<< num1 <<‬‭
+endl‬
+;‬
+‭
+else‬
+‭
+cout‬‭
+‭
+<<‬‭
+"The maximum is: "‬‭
+<< num2 <<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭Solution for Question 29: Grade Evaluation‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+marks;‬
+// Input marks‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter your marks: "‬
+;‬
+‭
+cin‬‭
+‭
+>> marks;‬
+// Determine grade‬
+‭
+if‬‭
+‭
+(marks >=‬‭
+90‬
+)‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Grade: A"‬‭
+<<‬‭
+endl‬
+;‬
+‭
+else‬‭
+‭
+if‬‭
+(marks >=‬‭
+80‬
+)‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Grade: B"‬‭
+<<‬‭
+endl‬
+;‬
+‭
+else‬‭
+‭
+if‬‭
+(marks >=‬‭
+70‬
+)‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Grade: C"‬‭
+<<‬‭
+endl‬
+;‬
+‭
+else‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Grade: Fail"‬‭
+<<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Solution for Question 30: Leap Year Check‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+year;‬
+// Input year‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter a year: "‬
+;‬
+‭
+cin‬‭
+‭
+>> year;‬
+// Check leap year‬
+‭
+if‬‭
+‭
+((year %‬‭
+4‬‭
+==‬‭
+0‬‭
+&& year %‬‭
+100‬‭
+!=‬‭
+0‬
+) || (year‬‭
+‭
+%‬‭
+400‬‭
+==‬‭
+0‬
+))‬
+‭
+cout‬‭
+‭
+<< year <<‬‭
+" is a leap year."‬‭
+<<‬‭
+endl‬
+;‬
+‭
+else‬
+‭
+cout‬‭
+‭
+<< year <<‬‭
+" is not a leap year."‬‭
+<<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭Solution for Question 31: Divisibility Check‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+num;‬
+// Input number‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter a number: "‬
+;‬
+‭
+cin‬‭
+‭
+>> num;‬
+// Check divisibility‬
+‭
+if‬‭
+‭
+(num %‬‭
+3‬‭
+==‬‭
+0‬‭
+&& num %‬‭
+5‬‭
+==‬‭
+0‭
+)
+‬‬
+cout‬‭
+‭
+<< num <<‬‭
+" is divisible by both 3 and‬‭
+5."‬‭
+<<‬‭
+endl‬
+;‬
+‭
+else‬
+‭
+cout‬‭
+‭
+<< num <<‬‭
+" is not divisible by both‬‭
+3 and 5."‬‭
+<<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Solution for Question 32: Check Voting Eligibility‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+age;‬
+// Input age‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter your age: "‬
+;‬
+‭
+cin‬‭
+‭
+>> age;‬
+// Check voting eligibility‬
+‭
+if‬‭
+‭
+(age >=‬‭
+18‬
+)‬
+‭
+cout‬‭
+‭
+<<‬‭
+"You are eligible to vote."‬‭
+<<‬‭
+endl‬
+;‬
+‭
+else‬
+‭
+cout‬‭
+‭
+<<‬‭
+"You are not eligible to vote."‬‭
+<<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭Solution for Question 33: Check Alphabet Case‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+char‬‭
+‭
+ch;‬
+// Input character‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter a character: "‬
+;‬
+‭
+cin‬‭
+‭
+>> ch;‬
+// Check case‬
+‭
+if‬‭
+‭
+(ch >=‬‭
+'A'‬‭
+&& ch <=‬‭
+'Z'‬
+)‬
+‭
+cout‬‭
+‭
+<< ch <<‬‭
+" is an uppercase letter."‬‭
+<<‬‭
+endl‬
+;‬
+‭
+else‬‭
+‭
+if‬‭
+(ch >=‬‭
+'a'‬‭
+&& ch <=‬‭
+'z'‬
+)‬
+‭
+cout‬‭
+‭
+<< ch <<‬‭
+" is a lowercase letter."‬‭
+<<‬‭
+endl‬
+;‬
+‭
+else‬
+‭
+cout‬‭
+‭
+<< ch <<‬‭
+" is not a letter."‬‭
+<<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Solution for Question 34: Largest of Three Numbers‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+num1, num2, num3;‬
+// Input three numbers‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter three numbers: "‬
+;‬
+‭
+cin‬‭
+‭
+>> num1 >> num2 >> num3;‬
+// Find the largest number‬
+‭
+if‬‭
+‭
+(num1 >= num2 && num1 >= num3)‬
+cout‬‭
+‭
+<<‬‭
+"The largest number is: "‬‭
+<< num1‬‭
+<<‬‭
+endl‬
+;‬
+‭
+else‬‭
+‭
+if‬‭
+(num2 >= num1 && num2 >= num3)‬
+cout‬‭
+‭
+<<‬‭
+"The largest number is: "‬‭
+<< num2‬‭
+<<‬‭
+endl‬
+;‬
+‭
+else‬
+‭
+cout‬‭
+‭
+<<‬‭
+"The largest number is: "‬‭
+<< num3‬‭
+<<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭Solution for Question 35: Check Pass/Fail‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+marks;‬
+// Input marks‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter your marks: "‬
+;‬
+‭
+cin‬‭
+‭
+>> marks;‬
+// Check pass or fail‬
+‭
+if‬‭
+‭
+(marks >=‬‭
+40‬
+)‬
+‭
+cout‬‭
+‭
+<<‬‭
+"You have passed the exam."‬‭
+<<‬‭
+endl‬
+;‬
+‭
+else‬
+‭
+cout‬‭
+‭
+<<‬‭
+"You have failed the exam."‬‭
+<<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Switch Statements:‬
+‭ olutions‬
+S
+‭Solution for Question 36: Day of the Week‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+day;‬
+// Input day number‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter a number (1-7): "‬
+;‬
+‭
+cin‬‭
+‭
+>> day;‬
+// Determine the day of the week‬
+‭
+switch‬‭
+‭
+(day) {‬
+case‬‭
+‭
+1‭
+:
+‬‬‭
+cout‬‭
+<<‬‭
+"Monday"‬‭
+<<‬‭
+endl‬
+;‬‭
+‭
+break‬
+;‬
+‭
+case‬‭
+‭
+2‭
+:
+‬‬‭
+cout‬‭
+<<‬‭
+"Tuesday"‬‭
+<<‬‭
+endl‬
+;‬‭
+‭
+break‬
+;‬
+‭
+case‬‭
+‭
+3‭
+:
+‬‬‭
+cout‬‭
+<<‬‭
+"Wednesday"‬‭
+<<‬‭
+endl‬
+;‬‭
+‭
+break‬
+;‬
+‭
+case‬‭
+‭
+4‭
+:
+‬‬‭
+cout‬‭
+<<‬‭
+"Thursday"‬‭
+<<‬‭
+endl‬
+;‬‭
+‭
+break‬
+;‬
+‭
+case‬‭
+‭
+5‭
+:
+‬‬‭
+cout‬‭
+<<‬‭
+"Friday"‬‭
+<<‬‭
+endl‬
+;‬‭
+‭
+break‬
+;‬
+‭
+case‬‭
+‭
+6‭
+:
+‬‬‭
+cout‬‭
+<<‬‭
+"Saturday"‬‭
+<<‬‭
+endl‬
+;‬‭
+‭
+break‬
+;‬
+‭
+case‬‭
+‭
+7‭
+:
+‬‬‭
+cout‬‭
+<<‬‭
+"Sunday"‬‭
+<<‬‭
+endl‬
+;‬‭
+‭
+break‬
+;‬
+‭
+default‬
+‭
+:‬‭
+‭
+cout‬‭
+<<‬‭
+"Invalid input!"‬‭
+<<‬‭
+endl‬
+;‬
+‭
+}‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Solution for Question 37: Calculator‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+choice;‬
+double‬‭
+‭
+num1, num2, result;‬
+// Input two numbers and the operation choice‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter two numbers: "‬
+;‬
+‭
+cin‬‭
+‭
+>> num1 >> num2;‬
+cout‬‭
+‭
+<<‬‭
+"Choose an operation:\n1. Addition\n2.‬‭
+Subtraction\n3.‬
+Multiplication\n4. Division\n"‬
+‭
+;‬
+‭
+cin‬‭
+‭
+>> choice;‬
+// Perform operation based on choice‬
+‭
+switch‬‭
+‭
+(choice) {‬
+case‬‭
+‭
+1‭
+:
+‬‬
+result = num1 + num2;‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Result: "‬‭
+<< result <<‬‭
+endl‬
+;‬
+‭
+break‬
+‭
+;‬
+‭
+case‬‭
+‭
+2‭
+:
+‬‬
+result = num1 - num2;‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Result: "‬‭
+<< result <<‬‭
+endl‬
+;‬
+‭
+break‬
+‭
+;‬
+‭
+case‬‭
+‭
+3‭
+:
+‬‬
+result = num1 * num2;‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Result: "‬‭
+<< result <<‬‭
+endl‬
+;‬
+‭
+break‬
+‭
+;‬
+‭
+case‬‭
+‭
+4‭
+:
+‬‬
+if‬‭
+‭
+(num2 !=‬‭
+0‭
+)
+‬ {‬
+result = num1 / num2;‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Result: "‬‭
+<< result <<‬‭
+endl‬
+;‬
+‭
+}‬‭
+‭
+else‬‭
+{‬
+cout‬‭
+‭
+<<‬‭
+"Division by zero is not allowed!"‬‭
+<<‬‭
+endl‬
+;‬
+‭
+}‬
+‭
+break‬
+‭
+;‬
+‭
+default‬
+‭
+:‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Invalid choice!"‬‭
+<<‬‭
+endl‬
+;‬
+‭
+}‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Solution for Question 38: Vowel or Consonant Check‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+char‬‭
+‭
+ch;‬
+// Input character‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter a letter: "‬
+;‬
+‭
+cin‬‭
+‭
+>> ch;‬
+// Check if vowel or consonant‬
+‭
+switch‬‭
+‭
+(ch) {‬
+case‬‭
+‭
+'a'‬
+:‬‭
+‭
+case‬‭
+'e'‬
+:‬‭
+‭
+case‬‭
+'i'‬
+:‬‭
+‭
+case‬‭
+'o'‬
+:‬‭
+‭
+case‬‭
+'u'‬
+:‬
+‭
+case‬‭
+‭
+'A'‬
+:‬‭
+‭
+case‬‭
+'E'‬
+:‬‭
+‭
+case‬‭
+'I'‬
+:‬‭
+‭
+case‬‭
+'O'‬
+:‬‭
+‭
+case‬‭
+'U'‬
+:‬
+‭
+cout‬‭
+‭
+<< ch <<‬‭
+" is a vowel."‬‭
+<<‬‭
+endl‬
+;‬
+‭
+break‬
+‭
+;‬
+‭
+default‬
+‭
+:‬
+‭
+cout‬‭
+‭
+<< ch <<‬‭
+" is a consonant."‬‭
+<<‬‭
+endl‬
+;‬
+‭
+}‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Solution for Question 39: Month Name Display‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+month;‬
+// Input month number‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter a number (1-12): "‬
+;‬
+‭
+cin‬‭
+‭
+>> month;‬
+// Display the month name‬
+‭
+switch‬‭
+‭
+(month) {‬
+case‬‭
+‭
+1‭
+:
+‬‬‭
+cout‬‭
+<<‬‭
+"January"‬‭
+<<‬‭
+endl‬
+;‬‭
+‭
+break‬
+;‬
+‭
+case‬‭
+‭
+2‭
+:
+‬‬‭
+cout‬‭
+<<‬‭
+"February"‬‭
+<<‬‭
+endl‬
+;‬‭
+‭
+break‬
+;‬
+‭
+case‬‭
+‭
+3‭
+:
+‬‬‭
+cout‬‭
+<<‬‭
+"March"‬‭
+<<‬‭
+endl‬
+;‬‭
+‭
+break‬
+;‬
+‭
+case‬‭
+‭
+4‭
+:
+‬‬‭
+cout‬‭
+<<‬‭
+"April"‬‭
+<<‬‭
+endl‬
+;‬‭
+‭
+break‬
+;‬
+‭
+case‬‭
+‭
+5‭
+:
+‬‬‭
+cout‬‭
+<<‬‭
+"May"‬‭
+<<‬‭
+endl‬
+;‬‭
+‭
+break‬
+;‬
+‭
+case‬‭
+‭
+6‭
+:
+‬‬‭
+cout‬‭
+<<‬‭
+"June"‬‭
+<<‬‭
+endl‬
+;‬‭
+‭
+break‬
+;‬
+‭
+case‬‭
+‭
+7‭
+:
+‬‬‭
+cout‬‭
+<<‬‭
+"July"‬‭
+<<‬‭
+endl‬
+;‬‭
+‭
+break‬
+;‬
+‭
+case‬‭
+‭
+8‭
+:
+‬‬‭
+cout‬‭
+<<‬‭
+"August"‬‭
+<<‬‭
+endl‬
+;‬‭
+‭
+break‬
+;‬
+‭
+case‬‭
+‭
+9‭
+:
+‬‬‭
+cout‬‭
+<<‬‭
+"September"‬‭
+<<‬‭
+endl‬
+;‬‭
+‭
+break‬
+;‬
+‭
+case‬‭
+‭
+10‬
+:‬‭
+‭
+cout‬‭
+<<‬‭
+"October"‬‭
+<<‬‭
+endl‬
+;‬‭
+‭
+break‬
+;‬
+‭
+case‬‭
+‭
+11‬
+:‬‭
+‭
+cout‬‭
+<<‬‭
+"November"‬‭
+<<‬‭
+endl‬
+;‬‭
+‭
+break‬
+;‬
+‭
+case‬‭
+‭
+12‬
+:‬‭
+‭
+cout‬‭
+<<‬‭
+"December"‬‭
+<<‬‭
+endl‬
+;‬‭
+‭
+break‬
+;‬
+‭
+default‬
+‭
+:‬‭
+‭
+cout‬‭
+<<‬‭
+"Invalid input!"‬‭
+<<‬‭
+endl‬
+;‬
+‭
+}‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Solution for Question 40: Simple Grading System‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+char‬‭
+‭
+grade;‬
+// Input grade‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter your grade (A, B, C, D, F): "‬
+;‬
+‭
+cin‬‭
+‭
+>> grade;‬
+// Display message based on grade‬
+‭
+switch‬‭
+‭
+(grade) {‬
+case‬‭
+‭
+'A'‬
+:‬‭
+‭
+case‬‭
+'a'‬
+:‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Excellent!"‬‭
+<<‬‭
+endl‬
+;‬
+‭
+break‬
+‭
+;‬
+‭
+case‬‭
+‭
+'B'‬
+:‬‭
+‭
+case‬‭
+'b'‬
+:‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Good!"‬‭
+<<‬‭
+endl‬
+;‬
+‭
+break‬
+‭
+;‬
+‭
+case‬‭
+‭
+'C'‬
+:‬‭
+‭
+case‬‭
+'c'‬
+:‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Average."‬‭
+<<‬‭
+endl‬
+;‬
+‭
+break‬
+‭
+;‬
+‭
+case‬‭
+‭
+'D'‬
+:‬‭
+‭
+case‬‭
+'d'‬
+:‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Below Average."‬‭
+<<‬‭
+endl‬
+;‬
+‭
+break‬
+‭
+;‬
+‭
+case‬‭
+‭
+'F'‬
+:‬‭
+‭
+case‬‭
+'f'‬
+:‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Fail."‬‭
+<<‬‭
+endl‬
+;‬
+‭
+break‬
+‭
+;‬
+‭
+default‬
+‭
+:‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Invalid grade!"‬‭
+<<‬‭
+endl‬
+;‬
+‭
+}‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭For Loop Concept:‬
+‭Questions‬
+‭ olutions‬
+S
+‭Solution for Question 41: Print Numbers from 1 to N‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+N;‬
+// Input N‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter a positive integer: "‬
+;‬
+‭
+cin‬‭
+‭
+>> N;‬
+// Print numbers from 1 to N‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Numbers from 1 to "‬‭
+<< N <<‬‭
+" are: "‬
+;‬
+‭
+for‬‭
+‭
+(‬
+int‬‭
+‭
+i =‬‭
+1‬
+; i <= N; i++) {‬
+‭
+cout‬‭
+‭
+<< i <<‬‭
+" "‬
+;‬
+‭
+}‬
+‭
+cout‬‭
+‭
+<<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭Solution for Question 42: Print Multiplication Table‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+num;‬
+// Input number‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter a number: "‬
+;‬
+‭
+cin‬‭
+‭
+>> num;‬
+// Print multiplication table‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Multiplication table of "‬‭
+<< num <<‬‭
+":"‬‭
+<<‬‭
+endl‬
+;‬
+‭
+for‬‭
+‭
+(‬
+int‬‭
+‭
+i =‬‭
+1‬
+; i <=‬‭
+‭
+10‬
+; i++) {‬
+‭
+cout‬‭
+‭
+<< num <<‬‭
+" x "‬‭
+<< i <<‬‭
+" = "‬‭
+<< num‬‭
+* i <<‬‭
+endl‬
+;‬
+‭
+}‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Solution for Question 43: Sum of First N Natural Numbers‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+N, sum =‬‭
+0‬
+;‬
+‭
+// Input N‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter a positive integer: "‬
+;‬
+‭
+cin‬‭
+‭
+>> N;‬
+// Calculate sum‬
+‭
+for‬‭
+‭
+(‬
+int‬‭
+‭
+i =‬‭
+1‬
+; i <= N; i++) {‬
+‭
+sum += i;‬
+‭
+}‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Sum of first "‬‭
+<< N <<‬‭
+" natural numbers‬‭
+is: "‬‭
+<< sum <<‬
+endl‬
+‭
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭Solution for Question 44: Print Even Numbers from 1 to N‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+N;‬
+// Input N‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter a positive integer: "‬
+;‬
+‭
+cin‬‭
+‭
+>> N;‬
+// Print even numbers‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Even numbers from 1 to "‬‭
+<< N <<‬‭
+" are:‬‭
+"‬
+;‬
+‭
+for‬‭
+‭
+(‬
+int‬‭
+‭
+i =‬‭
+2‬
+; i <= N; i +=‬‭
+‭
+2‬
+) {‬
+‭
+cout‬‭
+‭
+<< i <<‬‭
+" "‬
+;‬
+‭
+}‬
+‭
+cout‬‭
+‭
+<<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Solution for Question 45: Factorial of a Number‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+N;‬
+unsigned‬‭
+‭
+long‬‭
+long‬‭
+factorial =‬‭
+1‭
+;
+‬‬
+// Input N‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter a positive integer: "‬
+;‬
+‭
+cin‬‭
+‭
+>> N;‬
+// Calculate factorial‬
+‭
+for‬‭
+‭
+(‬
+int‬‭
+‭
+i =‬‭
+1‬
+; i <= N; i++) {‬
+‭
+factorial *= i;‬
+‭
+}‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Factorial of "‬‭
+<< N <<‬‭
+" is: "‬‭
+<< factorial‬‭
+<<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭Variable Concept:‬
+‭ olutions‬
+S
+‭Solution for Question 46: Simple Variable Declaration and Output‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+// Declare variables‬
+‭
+string‬‭
+‭
+name =‬‭
+"John Doe"‬
+;‬
+‭
+int‬‭
+‭
+age =‬‭
+25‬
+;‬
+‭
+string‬‭
+‭
+country =‬‭
+"India"‬
+;‬
+‭
+// Output variables‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Name: "‬‭
+<< name <<‬‭
+endl‬
+;‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Age: "‬‭
+<< age <<‬‭
+endl‬
+;‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Country: "‬‭
+<< country <<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Solution for Question 47: Area of a Rectangle‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+float‬‭
+‭
+length, width, area;‬
+// Input length and width‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter the length of the rectangle: "‬
+;‬
+‭
+cin‬‭
+‭
+>> length;‬
+cout‬‭
+‭
+<<‬‭
+"Enter the width of the rectangle: "‬
+;‬
+‭
+cin‬‭
+‭
+>> width;‬
+// Calculate area‬
+‭
+area = length * width;‬
+‭
+// Display area‬
+‭
+cout‬‭
+‭
+<<‬‭
+"The area of the rectangle is: "‬‭
+<< area‬‭
+<<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭Solution for Question 48: Swap Two Numbers‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+a, b, temp;‬
+// Input two numbers‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter the first number (a): "‬
+;‬
+‭
+cin‬‭
+‭
+>> a;‬
+cout‬‭
+‭
+<<‬‭
+"Enter the second number (b): "‬
+;‬
+‭
+cin‬‭
+‭
+>> b;‬
+// Swap using a temporary variable‬
+‭
+temp = a;‬
+‭
+a = b;‬
+‭
+b = temp;‬
+‭
+// Display swapped values‬
+‭
+cout‬‭
+‭
+<<‬‭
+"After swapping:"‬‭
+<<‬‭
+endl‬
+;‬
+‭
+cout‬‭
+‭
+<<‬‭
+"a = "‬‭
+<< a <<‬‭
+endl‬
+;‬
+‭
+cout‬‭
+‭
+<<‬‭
+"b = "‬‭
+<< b <<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Solution for Question 49: Simple Interest Calculation‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+float‬‭
+‭
+principal, rate, time, simpleInterest;‬
+// Input principal, rate, and time‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter the principal amount: "‬
+;‬
+‭
+cin‬‭
+‭
+>> principal;‬
+cout‬‭
+‭
+<<‬‭
+"Enter the rate of interest: "‬
+;‬
+‭
+cin‬‭
+‭
+>> rate;‬
+cout‬‭
+‭
+<<‬‭
+"Enter the time (in years): "‬
+;‬
+‭
+cin‬‭
+‭
+>> time;‬
+// Calculate simple interest‬
+‭
+simpleInterest = (principal * rate * time) /‬‭
+‭
+100‬
+;‬
+‭
+// Display result‬
+‭
+cout‬‭
+‭
+<<‬‭
+"The simple interest is: "‬‭
+<< simpleInterest‬‭
+<<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭Solution for Question 50: Average of Three Numbers‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+float‬‭
+‭
+num1, num2, num3, average;‬
+// Input three numbers‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter the first number: "‬
+;‬
+‭
+cin‬‭
+‭
+>> num1;‬
+cout‬‭
+‭
+<<‬‭
+"Enter the second number: "‬
+;‬
+‭
+cin‬‭
+‭
+>> num2;‬
+cout‬‭
+‭
+<<‬‭
+"Enter the third number: "‬
+;‬
+‭
+cin‬‭
+‭
+>> num3;‬
+// Calculate average‬
+‭
+average = (num1 + num2 + num3) /‬‭
+‭
+3‬
+;‬
+‭
+// Display result‬
+‭
+cout‬‭
+‭
+<<‬‭
+"The average of the three numbers is:‬‭
+"‬‭
+<< average <<‬
+endl‬
+‭
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭String Concept:‬
+‭Solution for Question 51: Concatenate Two Strings‬
+‭include <iostream>‬
+#
+#include <string>‬
+‭
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+string‬‭
+‭
+str1, str2;‬
+// Input two strings‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter the first string: "‬
+;‬
+‭
+cin‬‭
+‭
+>> str1;‬
+cout‬‭
+‭
+<<‬‭
+"Enter the second string: "‬
+;‬
+‭
+cin‬‭
+‭
+>> str2;‬
+// Concatenate strings‬
+‭
+string‬‭
+‭
+result = str1 + str2;‬
+// Display the concatenated string‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Concatenated string: "‬‭
+<< result <<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Solution for Question 52: Extract a Substring‬
+‭include <iostream>‬
+#
+#include <string>‬
+‭
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+string‬‭
+‭
+str;‬
+int‬‭
+‭
+start, length;‬
+// Input string‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter a string: "‬
+;‬
+‭
+cin‬‭
+‭
+>> str;‬
+// Input starting position and length for substring‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter the starting position: "‬
+;‬
+‭
+cin‬‭
+‭
+>> start;‬
+cout‬‭
+‭
+<<‬‭
+"Enter the length of the substring: "‬
+;‬
+‭
+cin‬‭
+‭
+>> length;‬
+// Extract substring‬
+‭
+string‬‭
+‭
+substring = str.substr(start, length);‬
+// Display the substring‬
+‭
+cout‬‭
+‭
+<<‬‭
+"The substring is: "‬‭
+<< substring <<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭Solution for Question 53: Find the Length of a String‬
+‭include <iostream>‬
+#
+#include <string>‬
+‭
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+string‬‭
+‭
+str;‬
+// Input string‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter a string: "‬
+;‬
+‭
+cin‬‭
+‭
+>> str;‬
+// Find and display the length of the string‬
+‭
+cout‬‭
+‭
+<<‬‭
+"The length of the string is: "‬‭
+<< str.length()‬‭
+<<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Solution for Question 54: Convert a String to Uppercase‬
+‭include <iostream>‬
+#
+#include <string>‬
+‭
+#include <cctype>‬
+‭
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+string‬‭
+‭
+str;‬
+// Input string‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter a string: "‬
+;‬
+‭
+cin‬‭
+‭
+>> str;‬
+// Convert to uppercase‬
+‭
+for‬‭
+‭
+(‬
+int‬‭
+‭
+i =‬‭
+0‬
+; i < str.length(); i++) {‬
+‭
+str[i] =‬‭
+‭
+toupper‬
+(str[i]);‬
+‭
+}‬
+‭
+// Display the string in uppercase‬
+‭
+cout‬‭
+‭
+<<‬‭
+"String in uppercase: "‬‭
+<< str <<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭Solution for Question 55: Convert a String to Lowercase‬
+‭include <iostream>‬
+#
+#include <string>‬
+‭
+#include <cctype>‬
+‭
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+string‬‭
+‭
+str;‬
+// Input string‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter a string: "‬
+;‬
+‭
+cin‬‭
+‭
+>> str;‬
+// Convert to lowercase‬
+‭
+for‬‭
+‭
+(‬
+int‬‭
+‭
+i =‬‭
+0‬
+; i < str.length(); i++) {‬
+‭
+str[i] =‬‭
+‭
+tolower‬
+(str[i]);‬
+‭
+}‬
+‭
+// Display the string in lowercase‬
+‭
+cout‬‭
+‭
+<<‬‭
+"String in lowercase: "‬‭
+<< str <<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Solution for Question 56: Check if String is Empty‬
+‭include <iostream>‬
+#
+#include <string>‬
+‭
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+string‬‭
+‭
+str;‬
+‭/ Input string‬
+/
+cout‬‭
+‭
+<<‬‭
+"Enter a string: "‬
+;‬
+‭
+cin‬‭
+‭
+>> str;‬
+‭/ Check if the string is empty‬
+/
+if‬‭
+‭
+(str.empty()) {‬
+cout‬‭
+‭
+<<‬‭
+"The string is empty."‬‭
+<<‬‭
+endl‬
+;‬
+‭
+}‬‭
+‭
+else‬‭
+{‬
+cout‬‭
+‭
+<<‬‭
+"The string is not empty."‬‭
+<<‬‭
+endl‬
+;‬
+‭
+}‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uilt in Functions:‬
+B
+‭Solution for Question 57: Find the Square Root of a Number‬
+‭include <iostream>‬
+#
+#include <cmath> // For sqrt() function‬
+‭
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+double‬‭
+‭
+num;‬
+// Input number‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter a number: "‬
+;‬
+‭
+cin‬‭
+‭
+>> num;‬
+// Calculate and display square root‬
+‭
+cout‬‭
+‭
+<<‬‭
+"The square root of "‬‭
+<< num <<‬‭
+" is:‬‭
+"‬‭
+<<‬‭
+sqrt‬
+(num) <<‬
+‭
+endl‬
+‭
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Solution for Question 58: Find the Power of a Number‬
+‭include <iostream>‬
+#
+#include <cmath> // For pow() function‬
+‭
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+double‬‭
+‭
+base, exponent;‬
+// Input base and exponent‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter the base number: "‬
+;‬
+‭
+cin‬‭
+‭
+>> base;‬
+cout‬‭
+‭
+<<‬‭
+"Enter the exponent: "‬
+;‬
+‭
+cin‬‭
+‭
+>> exponent;‬
+// Calculate and display power‬
+‭
+cout‬‭
+‭
+<< base <<‬‭
+" raised to the power of "‬‭
+<<‬‭
+exponent <<‬‭
+" is: "‬
+<<‬‭
+‭
+pow‬
+(base, exponent) <<‬‭
+‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭Solution for Question 59: Find the Absolute Value of a Number‬
+‭include <iostream>‬
+#
+#include <cmath> // For abs() function‬
+‭
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+num;‬
+// Input number‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter a number: "‬
+;‬
+‭
+cin‬‭
+‭
+>> num;‬
+// Calculate and display absolute value‬
+‭
+cout‬‭
+‭
+<<‬‭
+"The absolute value of "‬‭
+<< num <<‬‭
+" is:‬‭
+"‬‭
+<<‬‭
+abs‬
+(num) <<‬
+‭
+endl‬
+‭
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Solution for Question 60: Find the Maximum of Two Numbers‬
+‭include <iostream>‬
+#
+#include <algorithm> // For max() function‬
+‭
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+num1, num2;‬
+// Input two numbers‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter the first number: "‬
+;‬
+‭
+cin‬‭
+‭
+>> num1;‬
+cout‬‭
+‭
+<<‬‭
+"Enter the second number: "‬
+;‬
+‭
+cin‬‭
+‭
+>> num2;‬
+// Find and display maximum‬
+‭
+cout‬‭
+‭
+<<‬‭
+"The maximum of "‬‭
+<< num1 <<‬‭
+" and "‬‭
+<<‬‭
+num2 <<‬‭
+" is: "‬
+<< max(num1, num2) <<‬‭
+‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭Solution for Question 61: Find the Minimum of Two Numbers‬
+‭include <iostream>‬
+#
+#include <algorithm> // For min() function‬
+‭
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+num1, num2;‬
+// Input two numbers‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter the first number: "‬
+;‬
+‭
+cin‬‭
+‭
+>> num1;‬
+cout‬‭
+‭
+<<‬‭
+"Enter the second number: "‬
+;‬
+‭
+cin‬‭
+‭
+>> num2;‬
+// Find and display minimum‬
+‭
+cout‬‭
+‭
+<<‬‭
+"The minimum of "‬‭
+<< num1 <<‬‭
+" and "‬‭
+<<‬‭
+num2 <<‬‭
+" is: "‬‭
+<<‬
+min(num1, num2) <<‬‭
+‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭User-defined functions:‬
+‭Solution for Question 62: Find the Factorial of a Number‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+// User-defined function to calculate factorial‬
+‭
+int‬‭
+‭
+factorial‬
+(‭
+‭
+i
+‬nt‬‭
+n) {‬
+int‬‭
+‭
+fact =‬‭
+1‬
+;‬
+‭
+for‬‭
+‭
+(‬
+int‬‭
+‭
+i =‬‭
+1‬
+; i <= n; i++) {‬
+‭
+fact *= i;‬
+‭
+}‬
+‭
+return‬‭
+‭
+fact;‬
+}‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+num;‬
+// Input number‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter a number: "‬
+;‬
+‭
+cin‬‭
+‭
+>> num;‬
+// Call the factorial function‬
+‭
+cout‬‭
+‭
+<<‬‭
+"The factorial of "‬‭
+<< num <<‬‭
+" is: "‬‭
+<< factorial(num)‬
+<<‬‭
+‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Solution for Question 63: Check Even or Odd‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+// User-defined function to check even or odd‬
+‭
+void‬‭
+‭
+checkEvenOdd‬
+(‭
+‭
+i
+‬nt‬‭
+n) {‬
+if‬‭
+‭
+(n %‬‭
+2‬‭
+==‬‭
+0‭
+)
+‬ {‬
+cout‬‭
+‭
+<< n <<‬‭
+" is even."‬‭
+<<‬‭
+endl‬
+;‬
+‭
+}‬‭
+‭
+else‬‭
+{‬
+cout‬‭
+‭
+<< n <<‬‭
+" is odd."‬‭
+<<‬‭
+endl‬
+;‬
+‭
+}‬
+‭
+}‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+num;‬
+// Input number‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter a number: "‬
+;‬
+‭
+cin‬‭
+‭
+>> num;‬
+// Call the checkEvenOdd function‬
+‭
+checkEvenOdd(num);‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭Solution for Question 64: Calculate the Area of a Circle‬
+‭include <iostream>‬
+#
+#include <cmath> // For M_PI constant‬
+‭
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+// User-defined function to calculate area of circle‬
+‭
+double‬‭
+‭
+areaOfCircle‬
+(‬
+‭
+double‬‭
+‭
+radius) {‬
+return‬‭
+‭
+M_PI * radius * radius;‬
+}‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+double‬‭
+‭
+radius;‬
+// Input radius‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter the radius of the circle: "‬
+;‬
+‭
+cin‬‭
+‭
+>> radius;‬
+// Call the areaOfCircle function‬
+‭
+cout‬‭
+‭
+<<‬‭
+"The area of the circle is: "‬‭
+<< areaOfCircle(radius)‬‭
+<<‬
+endl‬
+‭
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Solution for Question 65: Find the Maximum of Three Numbers‬
+‭include <iostream>‬
+#
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+// User-defined function to find maximum of three numbers‬
+‭
+int‬‭
+‭
+findMax‬
+(‬
+‭
+int‬‭
+‭
+a,‬‭
+int‬‭
+b,‬‭
+int‬‭
+c) {‬
+if‬‭
+‭
+(a > b && a > c) {‬
+return‬‭
+‭
+a;‬
+}‬‭
+‭
+else‬‭
+if‬‭
+(b > c) {‬
+return‬‭
+‭
+b;‬
+}‬‭
+‭
+else‬‭
+{‬
+return‬‭
+‭
+c;‬
+}‬
+‭
+}‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+num1, num2, num3;‬
+// Input three numbers‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter three numbers: "‬
+;‬
+‭
+cin‬‭
+‭
+>> num1 >> num2 >> num3;‬
+// Call the findMax function‬
+‭
+cout‬‭
+‭
+<<‬‭
+"The maximum of the three numbers is:‬‭
+"‬‭
+<< findMax(num1,‬
+num2, num3) <<‬‭
+‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭File handling -Text File:‬
+‭Solution for Question 66: Write to a Text File‬
+‭include <iostream>‬
+#
+#include <fstream> // For file handling‬
+‭
+#include <string>‬
+‭
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+string‬‭
+‭
+text;‬
+ofstream‬‭
+‭
+outFile‬
+(‭
+‭
+"
+‬output.txt"‬
+);‬‭
+‭
+// Create and open a text file‬
+for writing‬
+‭
+if‬‭
+‭
+(!outFile) {‬ ‭
+// Check if the file is open‬
+cout‬‭
+‭
+<<‬‭
+"Error opening file!"‬‭
+<<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+1‬
+;‬
+‭
+}‬
+‭
+// Input text from user‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter text to save to the file: "‬
+;‬
+‭
+getline(‬
+‭
+cin‬
+‭
+, text);‬
+‭
+// Write text to the file‬
+‭
+outFile << text <<‬‭
+‭
+endl‬
+;‬
+‭
+// Close the file‬
+‭
+outFile.close();‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Text written to the file successfully!"‬‭
+<<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Solution for Question 67: Read from a Text File‬
+‭include <iostream>‬
+#
+#include <fstream> // For file handling‬
+‭
+#include <string>‬
+‭
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+string‬‭
+‭
+line;‬
+ifstream‬‭
+‭
+inFile‬
+(‬
+‭
+"output.txt"‬
+‭
+);‬‭
+‭
+// Open the text‬‭
+file for reading‬
+if‬‭
+‭
+(!inFile) {‬ ‭
+// Check if the file is open‬
+cout‬‭
+‭
+<<‬‭
+"Error opening file!"‬‭
+<<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+1‬
+;‬
+‭
+}‬
+‭
+// Read content of the file and display it‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Contents of the file are: "‬‭
+<<‬‭
+endl‬
+;‬
+‭
+while‬‭
+‭
+(getline(inFile, line)) {‬ ‭
+// Read each‬‭
+line from the file‬
+cout‬‭
+‭
+<< line <<‬‭
+endl‬
+;‬
+‭
+}‬
+‭
+// Close the file‬
+‭
+inFile.close();‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭File-Handling Binary File:‬
+‭Solution for Question 68: Write to a Binary File‬
+‭include <iostream>‬
+#
+#include <fstream> // For binary file handling‬
+‭
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+num;‬
+ofstream‬‭
+‭
+outFile‬
+(‭
+‭
+"
+‬numbers.dat"‬
+, ios::binary);‬ ‭
+‭
+// Open a binary‬
+file for writing‬
+‭
+if‬‭
+‭
+(!outFile) {‬ ‭
+// Check if the file opened successfully‬
+cout‬‭
+‭
+<<‬‭
+"Error opening file!"‬‭
+<<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+1‬
+;‬
+‭
+}‬
+‭
+// Input integers from the user‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Enter 3 integers to save to the binary‬‭
+file: "‬
+;‬
+‭
+for‬‭
+‭
+(‬
+int‬‭
+‭
+i =‬‭
+0‬
+; i <‬‭
+‭
+3‭
+;
+‬ i++) {‬
+cin‬‭
+‭
+>> num;‬
+outFile.write(‬
+‭
+reinterpret_cast‬
+‭
+<‬
+‭
+char‬
+‭
+*>(&num),‬‭
+‭
+sizeof‬
+(num));‬
+‭
+// Write the integer as binary‬
+‭
+}‬
+‭
+// Close the binary file‬
+‭
+outFile.close();‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Data written to the binary file successfully!"‬‭
+<<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Solution for Question 69: Read from a Binary File‬
+‭include <iostream>‬
+#
+#include <fstream> // For binary file handling‬
+‭
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+num;‬
+ifstream‬‭
+‭
+inFile‬
+(‬
+‭
+"numbers.dat"‬
+‭
+, ios::binary);‬ ‭
+‭
+// Open a binary‬
+file for reading‬
+‭
+if‬‭
+‭
+(!inFile) {‬ ‭
+// Check if the file opened successfully‬
+cout‬‭
+‭
+<<‬‭
+"Error opening file!"‬‭
+<<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+1‬
+;‬
+‭
+}‬
+‭
+// Read integers from the binary file‬
+‭
+cout‬‭
+‭
+<<‬‭
+"The numbers in the binary file are: "‬‭
+<<‬‭
+endl‬
+;‬
+‭
+while‬‭
+‭
+(inFile.read(‬
+reinterpret_cast‬
+‭
+<‭
+‭
+c
+‬har‬
+*>(&num),‬‭
+‭
+sizeof‬
+(num))) {‬
+‭
+// Read data from the file‬
+‭
+cout‬‭
+‭
+<< num <<‬‭
+endl‬
+;‬
+‭
+}‬
+‭
+// Close the binary file‬
+‭
+inFile.close();‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Error Handling in File Operations‬
+‭Solution‬
+‭70. Simplified Program for Error Handling in File Operations‬
+‭include <iostream>‬
+#
+#include <fstream> // For file handling‬
+‭
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+// Open the file for writing‬
+‭
+ofstream‬‭
+‭
+outFile‬
+(‭
+‭
+"
+‬example.txt"‬
+);‬
+‭
+‭/ Check if the file is open‬
+/
+if‬‭
+‭
+(!outFile) {‬
+cout‬‭
+‭
+<<‬‭
+"Error opening the file!"‬‭
+<<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+1‬
+;‬ ‭
+‭
+// Exit the program if the file‬‭
+can't be opened‬
+}‬
+‭
+‭/ Write some text to the file‬
+/
+outFile <<‬‭
+‭
+"This is a simple example of file handling."‬‭
+<<‬‭
+endl‬
+;‬
+‭
+‭/ Close the file‬
+/
+outFile.close();‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Data written to the file successfully!"‬‭
+<<‬‭
+endl‬
+;‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭ xception handling:‬
+E
+‭Solution for Question 71: Handle Division by Zero‬
+‭include <iostream>‬
+#
+#include <stdexcept> // For exceptions‬
+‭
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+double‬‭
+‭
+num1, num2;‬
+cout‬‭
+‭
+<<‬‭
+"Enter two numbers: "‬
+;‬
+‭
+cin‬‭
+‭
+>> num1 >> num2;‬
+try‬‭
+‭
+{‬
+if‬‭
+‭
+(num2 ==‬‭
+0‭
+)
+‬ {‬
+throw‬‭
+‭
+runtime_error(‬
+"Error: Division by‬‭
+‭
+zero!"‬
+);‬
+‭
+}‬
+‭
+cout‬‭
+‭
+<<‬‭
+"The result is: "‬‭
+<< num1 / num2 <<‬‭
+endl‬
+;‬
+‭
+}‬‭
+‭
+catch‬‭
+(‬
+const‬‭
+‭
+runtime_error& e) {‬
+cout‬‭
+‭
+<< e.what() <<‬‭
+endl‬
+;‬
+‭
+}‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭Solution for Question 72: Handle Invalid Input‬
+‭include <iostream>‬
+#
+#include <stdexcept> // For exceptions‬
+‭
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+num;‬
+cout‬‭
+‭
+<<‬‭
+"Enter an integer: "‬
+;‬
+‭
+try‬‭
+‭
+{‬
+if‬‭
+‭
+(!(‬
+cin‬‭
+‭
+>> num)) {‬
+throw‬‭
+‭
+runtime_error(‬
+"Error: Invalid input,‬‭
+‭
+not an‬
+integer."‬
+‭
+);‬
+‭
+}‬
+‭
+cout‬‭
+‭
+<<‬‭
+"You entered: "‬‭
+<< num <<‬‭
+endl‬
+;‬
+‭
+}‬‭
+‭
+catch‬‭
+(‬
+const‬‭
+‭
+runtime_error& e) {‬
+cout‬‭
+‭
+<< e.what() <<‬‭
+endl‬
+;‬
+‭
+}‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Solution for Question 73: Handle File Not Found‬
+‭include <iostream>‬
+#
+#include <fstream>‬
+‭
+#include <stdexcept> // For exceptions‬
+‭
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+ifstream‬‭
+‭
+inFile‬
+(‬
+‭
+"nonexistent.txt"‬
+‭
+);‬
+‭
+try‬‭
+‭
+{‬
+if‬‭
+‭
+(!inFile) {‬
+throw‬‭
+‭
+runtime_error(‬
+"Error: File not found!"‬
+‭
+);‬
+‭
+}‬
+‭
+cout‬‭
+‭
+<<‬‭
+"File opened successfully!"‬‭
+<<‬‭
+endl‬
+;‬
+‭
+}‬‭
+‭
+catch‬‭
+(‬
+const‬‭
+‭
+runtime_error& e) {‬
+cout‬‭
+‭
+<< e.what() <<‬‭
+endl‬
+;‬
+‭
+}‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭Solution for Question 74: Handle Negative Age Input‬
+‭include <iostream>‬
+#
+#include <stdexcept> // For exceptions‬
+‭
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+int‬‭
+‭
+age;‬
+cout‬‭
+‭
+<<‬‭
+"Enter your age: "‬
+;‬
+‭
+cin‬‭
+‭
+>> age;‬
+try‬‭
+‭
+{‬
+if‬‭
+‭
+(age <‬‭
+0‬
+) {‬
+‭
+throw‬‭
+‭
+invalid_argument(‬
+"Error: Age cannot‬‭
+‭
+be negative!"‬
+);‬
+‭
+}‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Your age is: "‬‭
+<< age <<‬‭
+endl‬
+;‬
+‭
+}‬‭
+‭
+catch‬‭
+(‬
+const‬‭
+‭
+invalid_argument& e) {‬
+cout‬‭
+‭
+<< e.what() <<‬‭
+endl‬
+;‬
+‭
+}‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭classes, structures, and inheritance:‬
+‭Solution for Question 75: Basic Class Definition and Object Creation‬
+‭include <iostream>‬
+#
+#include <string>‬
+‭
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+class‬‭
+‭
+Person‬‭
+{‬
+public‬
+‭
+:‬
+‭
+string‬‭
+‭
+name;‬
+int‬‭
+‭
+age;‬
+void‬‭
+‭
+display‬
+() {‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Name: "‬‭
+<< name <<‬‭
+endl‬
+;‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Age: "‬‭
+<< age <<‬‭
+endl‬
+;‬
+‭
+}‬
+‭
+};‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+Person person1;‬ ‭
+‭
+// Creating an object of class‬‭
+Person‬
+person1.name =‬‭
+‭
+"John Doe"‬
+;‬
+‭
+person1.age =‬‭
+‭
+25‬
+;‬
+‭
+‭erson1.display();‬ ‭
+p
+// Calling the display function‬
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Solution for Question 76: Using Structures for Storing Data‬
+‭ ‬‭include‬‭<iostream>‬
+#
+‭#‬‭include‬‭<string>‬
+‭using‬‭namespace‬‭std;‬
+‭struct‬‭Student {‬
+‭string name;‬
+‭int‬‭rollNo;‬
+‭float‬‭marks;‬
+‭};‬
+‭int‬‭main‬‭() {‬
+‭Student student1;‬ ‭// Creating an instance of Student structure‬
+‭student‬‭1.‬‭name =‬‭"Alice"‬‭;‬
+‭student‬‭1.‬‭rollNo =‬‭101‬‭;‬
+‭student‬‭1.‬‭marks =‬‭85.5‬‭;‬
+c‭ out <<‬‭"Name: "‬‭<< student‬‭1.‬‭name << endl;‬
+‭cout <<‬‭"Roll Number: "‬‭<< student‬‭1.‬‭rollNo << endl;‬
+‭cout <<‬‭"Marks: "‬‭<< student‬‭1.‬‭marks << endl;‬
+‭return‬‭0‬‭;‬
+‭}‬
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Solution for Question 77: Simple Inheritance‬
+‭include <iostream>‬
+#
+#include <string>‬
+‭
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+class‬‭
+‭
+Animal‬‭
+{‬
+public‬
+‭
+:‬
+‭
+string‬‭
+‭
+name;‬
+void‬‭
+‭
+display‬
+() {‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Animal name: "‬‭
+<< name <<‬‭
+endl‬
+;‬
+‭
+}‬
+‭
+‭;‬
+}
+class‬‭
+‭
+Dog‬‭
+:‬‭
+public‬‭
+Animal {‬
+public‬
+‭
+:‬
+‭
+void‬‭
+‭
+bark‬
+() {‬
+‭
+cout‬‭
+‭
+<< name <<‬‭
+" says Woof!"‬‭
+<<‬‭
+endl‬
+;‬
+‭
+}‬
+‭
+};‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+Dog dog1;‬
+‭
+dog1.name =‬‭
+‭
+"Buddy"‬
+;‬
+‭
+‭og1.display();‬
+d
+dog1.bark();‬ ‭
+‭
+// Calling method of derived class‬
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Solution for Question 78: Using Constructor in a Class‬
+‭include <iostream>‬
+#
+#include <string>‬
+‭
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+class‬‭
+‭
+Car‬‭
+{‬
+public‬
+‭
+:‬
+‭
+string‬‭
+‭
+brand;‬
+string‬‭
+‭
+model;‬
+// Constructor to initialize the attributes‬
+‭
+Car(‬
+‭
+string‬‭
+‭
+b,‬‭
+string‬‭
+m) {‬
+brand = b;‬
+‭
+model = m;‬
+‭
+}‬
+‭
+void‬‭
+‭
+display‬
+() {‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Car Brand: "‬‭
+<< brand <<‬‭
+endl‬
+;‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Car Model: "‬‭
+<< model <<‬‭
+endl‬
+;‬
+‭
+}‬
+‭
+};‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+Car‬‭
+‭
+car1‬
+(‬
+‭
+"Toyota"‬
+‭
+,‬‭
+‭
+"Corolla"‬
+);‬ ‭
+‭
+// Creating an‬‭
+object with‬
+constructor‬
+‭
+car1.display();‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Solution for Question 79: Inheritance with Constructor‬
+‭include <iostream>‬
+#
+#include <string>‬
+‭
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+class‬‭
+‭
+Vehicle‬‭
+{‬
+public‬
+‭
+:‬
+‭
+string‬‭
+‭
+type;‬
+// Constructor of base class‬
+‭
+Vehicle(‬
+‭
+string‬‭
+‭
+t) {‬
+type = t;‬
+‭
+}‬
+‭
+};‬
+‭
+class‬‭
+‭
+Bike‬‭
+:‬‭
+public‬‭
+Vehicle {‬
+public‬
+‭
+:‬
+‭
+string‬‭
+‭
+brand;‬
+// Constructor of derived class‬
+‭
+Bike(‬
+‭
+string‬‭
+‭
+t,‬‭
+string‬‭
+b) : Vehicle(t) {‬
+brand = b;‬
+‭
+}‬
+‭
+void‬‭
+‭
+display‬
+() {‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Vehicle Type: "‬‭
+<< type <<‬‭
+endl‬
+;‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Bike Brand: "‬‭
+<< brand <<‬‭
+endl‬
+;‬
+‭
+}‬
+‭
+};‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+Bike‬‭
+‭
+bike1‬
+(‬
+‭
+"Two-Wheeler"‬
+‭
+,‬‭
+‭
+"Yamaha"‬
+);‬
+‭
+bike1.display();‬
+‭
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬‭Solution for Question 80: Using Structures and Functions‬
+‭include <iostream>‬
+#
+#include <string>‬
+‭
+using‬‭
+‭
+namespace‬‭
+std‬
+;‬
+‭
+struct‬‭
+‭
+Book‬‭
+{‬
+string‬‭
+‭
+title;‬
+string‬‭
+‭
+author;‬
+};‬
+‭
+void‬‭
+‭
+displayBookDetails‬
+(Book b) {‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Title: "‬‭
+<< b.title <<‬‭
+endl‬
+;‬
+‭
+cout‬‭
+‭
+<<‬‭
+"Author: "‬‭
+<< b.author <<‬‭
+endl‬
+;‬
+‭
+}‬
+‭
+int‬‭
+‭
+main‬
+() {‬
+‭
+Book book1 = {‬
+‭
+"C++ Programming"‬
+‭
+,‬‭
+‭
+"Bjarne Stroustrup"‬
+};‬
+‭
+displayBookDetails(book1);‬ ‭
+‭
+// Passing structure‬‭
+to function‬
+return‬‭
+‭
+0‬
+;‬
+‭
+}‬
+‭
+‭ uthor : Aishwarya K Manager - Program Delivery (CyberSecurity)‬
+A
+‭Date : 24/11/24‬
+‭Topic : Solution-F-C++‬
